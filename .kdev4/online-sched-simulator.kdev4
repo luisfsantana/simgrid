@@ -1,23 +1,8 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00,\x00o\x00n\x00l\x00i\x00n\x00e\x00-\x00s\x00c\x00h\x00e\x00d\x00-\x00s\x00i\x00m\x00u\x00l\x00a\x00t\x00o\x00r)
+
 [Launch]
-Launch Configurations=Launch Configuration 0
-
-[Launch][Launch Configuration 0]
-Configured Launch Modes=execute
-Configured Launchers=nativeAppLauncher
-Name=New Compiled Binary Launcher
-Type=Native Application
-
-[Launch][Launch Configuration 0][Data]
-Arguments=xmls/plat_day.xml xmls/deployment_day.xml -nt 19 -verbose
-Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
-Dependency Action=Nothing
-EnvironmentGroup=
-Executable=file:///home/luis/Downloads/online-sched-simulator/heuristics_simulator_submittime_day
-External Terminal=konsole --noclose --workdir %workdir -e %exe
-Project Target=
-Use External Terminal=false
-Working Directory=file:///home/luis/Downloads/online-sched-simulator
-isExecutable=true
+Launch Configurations=
 
 [Project]
 VersionControlSupport=kdevgit

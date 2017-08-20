@@ -757,8 +757,14 @@ int main(int argc, char *argv[])
 {
   msg_error_t res = MSG_OK;
 
-  int i;
-
+  int i;  
+  
+  for(i = 0;i < argc; i++){
+    printf("CARAI: %s\n", argv[i]);
+    printf("\n");
+      
+  }
+  
   MSG_init(&argc, argv);
   if (argc < 3) {
     printf("Usage: %s platform_file deployment_file [-verbose]\n", argv[0]);
