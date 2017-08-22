@@ -439,7 +439,7 @@ void readModelFile(void){
 	while (fgets(line, 1024, stream))
 	{
 		char* tmp = strdup(line);
-		all_runtimes[task_count] = atof(getfield(tmp, 1)); ;
+		all_runtimes[task_count] = atof(getfield(tmp, 1));
 		free(tmp);
 		tmp = strdup(line);
 		all_cores[task_count] = atoi(getfield(tmp, 2));;
